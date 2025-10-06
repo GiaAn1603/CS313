@@ -1,0 +1,40 @@
+.years-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  gap: 15px;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.year-card {
+  transition: all 0.3s ease;
+  cursor: pointer;
+  border: 2px solid #e9ecef;
+  border-radius: 10px;
+  background: white;
+  padding: 20px 10px;
+  color: #495057;
+  font-weight: 600;
+  font-size: 1.1rem;
+  text-align: center;
+  text-decoration: none;
+}
+
+.year-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  border-color: #0d6efd;
+  background: #0d6efd;
+  color: white;
+  text-decoration: none;
+}
+
+.year-card.current-year {
+  border-color: #198754;
+  background: #198754;
+  color: white;
+}
+
+.year-card:active {
+  transform: translateY(-1px);
+}

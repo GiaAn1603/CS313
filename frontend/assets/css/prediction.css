@@ -1,0 +1,36 @@
+.container {
+  margin-top: 50px;
+  max-width: 1200px;
+}
+.upload-area {
+  margin-bottom: 30px;
+  border: 2px dashed #007bff;
+  border-radius: 10px;
+  background-color: #f8f9fa;
+  padding: 40px;
+  text-align: center;
+}
+.results {
+  display: none;
+  margin-top: 30px;
+}
+.error-metrics {
+  margin-bottom: 20px;
+  border-radius: 5px;
+  background-color: #e9ecef;
+  padding: 20px;
+}
+.loading {
+  display: none;
+  margin: 20px 0;
+  text-align: center;
+}
+.prediction-card {
+  margin-bottom: 20px;
+}
+.model-status {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  z-index: 1000;
+}
